@@ -1,0 +1,74 @@
+
+body{
+    
+    margin: 0px;
+}
+#header {
+    
+    background-color: cornflowerblue;
+    padding: 35px;
+    height: 15px;
+}
+
+#header .logo img {
+    width: 110px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.logo{width: 55%;
+    padding-top: 0px;
+    
+    float: left;}
+.search{width: 45%; float: left; }
+.search input{ 
+    padding: 0 15px;
+    border-radius: 2px 0 0 2px;
+    border: 0 none;
+    outline:0 none;
+    font-size: 15px;
+    height: 35px;
+    width: 100%;
+
+
+}
+.search i{
+    float: right;
+    margin: -22px;
+    z-index: 999;
+    position: relative;
+    top: -14px;
+    left: 7px;
+    color: steelblue;
+    background: #eee;
+    padding: 10px;
+    border-left: 20px snow;
+    border-radius: 0 2px 2px 0;
+    box-shadow: orchid inset 1px 9px 3px 1px;
+
+}
+.register{
+    float: right;
+}
+.register .Signin a{
+    color: antiquewhite;
+    text-decorastion: none;
+    line-height: 37px; 
+    font-weight:bold;
+     text-transform: capitalize; 
+    text-shadow: 1px 1px 1px red;
+
+
+}
+
+.register .Signin a.SignUp:hover{
+    background: red;
+    padding: 10px;
+    
+}
+#slider .slider_img img{
+    widows: 100px;
+    height: 280px;
+    display: inline-block;
+}
